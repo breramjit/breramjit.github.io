@@ -2,4 +2,32 @@ body {
     color: blue;
 }
 
-/* this is a CSS comment */
+/* change color of all paragraphs and list items */
+p, li {
+    color: green;
+}
+
+/* target child elemets */
+section h1 {
+    color: darkred;
+}
+/* style a class */
+.second-heading {
+    color: deeppink;
+}
+/* style an id */
+#main-section {
+    color: pink;
+}
+a:link {
+    color: purple;
+}
+a:visited {
+    color:darkslateblue;
+}
+
+/* can also do link, active, hover, visited to keep the same colour */
+
+a[href="http://algonquincollege.com"] {
+    color: darkseagreen;
+}
