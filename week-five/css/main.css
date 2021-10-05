@@ -1,22 +1,25 @@
-body {
+body { /*0,0,0,1 */
     color: blue;
 }
 
 /* change color of all paragraphs and list items */
 p, li {
+
     color: green;
 }
 
 /* target child elemets */
-section h1 {
+section h1 { /* 0, 0, 0, 2 */
     color: darkred;
 }
+
 /* style a class */
-.second-heading {
+
+.second-heading { /* 0, 0, 1, 0 */ 
     color: deeppink;
 }
 /* style an id */
-#main-section {
+#main-section { /* 0, 1, 0, 0 */
     color: pink;
 }
 a:link {
@@ -30,4 +33,8 @@ a:visited {
 
 a[href="http://algonquincollege.com"] {
     color: darkseagreen;
+}
+
+body section.main-wrapper #primary-article.doorknob article > p {
+    /* 0, 1, 2, 4 */
 }
