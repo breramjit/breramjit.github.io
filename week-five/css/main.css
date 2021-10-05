@@ -25,6 +25,7 @@ section h1 { /* 0, 0, 0, 2 */
 a:link {
     color: purple;
 }
+/* link underline is called link decoration*/s
 a:visited {
     color:darkslateblue;
 }
@@ -35,6 +36,11 @@ a[href="http://algonquincollege.com"] {
     color: darkseagreen;
 }
 
+/* unrealistic example */
+
 body section.main-wrapper #primary-article.doorknob article > p {
     /* 0, 1, 2, 4 */
+}
+li:nth-child(odd) {
+    background-color: dodgerblue;
 }
