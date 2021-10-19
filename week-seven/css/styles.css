@@ -1,0 +1,79 @@
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after{
+    box-sizing: inherit;
+  }
+
+nav ul li {
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+}
+
+.box {
+    width: 200px;
+    background-color:cadetblue;
+    color:cornsilk;
+    /* introduce box model */
+    padding: 10px; /*20px total*/
+    border: 5px solid #900; /*10px total*/
+    margin: 10px; /*20px total*/
+
+    /*float the boxes beside each other*/
+    float: left;
+}
+
+/* center a box level element */
+/* .box1 {
+    margin: 0 auto;
+} */
+
+.box1 {
+    box-sizing: content-box;
+}
+
+.box2 {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clear {
+    clear: left;
+}
+
+/* css positioning*/
+
+.stage {
+    height: 800px;
+    background-color: lightpink;
+    position: relative;
+    z-index: 9;
+}
+
+.prop {
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+
+    /*add positioning values*/
+    position: relative;
+    top: -50px;
+    left: 200px;
+/* 
+    position: absolute;
+    top: 100px;
+    left: 100px; */
+
+    /* position: fixed;
+    top: -50px;
+    left: 200px; */
+
+}
