@@ -1,3 +1,7 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.site-title {
+    color: white;
 }
