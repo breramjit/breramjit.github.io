@@ -8,29 +8,31 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <section class="content">
+
     <header>
         <!--adds class to site title to change colour to white in css-->
         <h1 class="site-title">Lone Starfish</h1>
         <!--adds id to wide starfish image so it can be centered in css-->
         <img src="images/lone-starfish-wide.jpg" alt="wide image of starfish" id="wide-starfish-image">
     </header>
+    <section class="content">
+        <!--gives content section a class of 'content' in order to center it and change the background colour of only the content, not the entire web page-->
     <nav>
         <a href="home.html">HOME</a>
         <a id="story" href="story.html">STORY</a>
         <a href="contact.html">CONTACT</a>
     </nav>
     <article>
-        <h2>Life of a Starfish</h2>
+        <h2 class="headers">Life of a Starfish</h2>
         <img src="images/lone-starfish.jpg" alt="square image of starfish" id="lone-starfish-image">
     </article>
-    <p>
+    <p class="text">
         Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.
     </p>
     <!--adds unordered list containing facts about starfish-->
     <section>
-        <h3>Facts About Starfish</h3>
-        <ul>
+        <h3 class="headers">Facts About Starfish</h3>
+        <ul class="text">
             <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
             <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
             <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
@@ -38,21 +40,21 @@
         </ul>
     </section>
     <section>
-        <h3>Contact to learn more</h3>
+        <h3 class="headers">Contact to learn more</h3>
     </section>
     <section>
     <form id="form">
         <div>
-            <label class="label" for="yourname">Your Name</label>
-            <input id="yourname" type="text" name="yourname">
+            <label for="yourname">Your Name</label>
+            <input class="input-box" id="yourname" type="text" name="yourname">
         </div>
         <div>
             <label for="youremail">Your Email</label>
-            <input id="youremail" type="text" name="youremail">
+            <input class="input-box" id="youremail" type="text" name="youremail">
         </div>
         <div>
             <label for="yourmessage">Your Message</label>
-            <input id="yourmessage" type="text" name="yourmessage">
+            <input class="message-input-box" id="yourmessage" type="text" name="yourmessage">
         </div>
         <!--adds section to the form using radio buttons for yes, no, maybe-->
         <div>
@@ -65,7 +67,7 @@
             <input type="radio" id="maybe">
         </div>
         <div>
-            <input type="button" value="send">
+            <input id="send-button" type="button" value="send">
         </div>
     </form>
     </section>

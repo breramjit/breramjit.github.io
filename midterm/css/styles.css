@@ -1,12 +1,44 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     background-color: #aad5d0;
     margin-left: 120px;
     margin-right: 120px;
 }
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+form {
+    padding: 12px;
+}
+.input-box {
+    margin: 8px 0;
+    width: 96%;
+}
+.message-input-box {
+    margin: 8px 0;
+    width: 96%;
+    padding: 20px;
+    padding-right: initial;
+}
+#send-button {
+    background-color: #d4e9e7;
+    border-radius: 4px;
+    margin: 8px 0;
+    padding: 5px;
+    border-width: thin;
+}
+.text {
+    font-size: 10px;
+}
+.headers {
+    font-weight: lighter;
+}
 .content {
     background-color: #d4e9e7;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 /*changes site title colour to white, and displays site title on top of the wide starfish image*/
 .site-title {
@@ -27,16 +59,15 @@ body {
 }
 /*wraps paragraph text around lone starfish image using float and padding*/
 #lone-starfish-image {
-    width: 20%;
+    width: 25%;
     float: left;
     padding-right: 12px;
     padding-bottom: 15px;
 }
-.label {
-    
-}
 #form {
     border-style: solid;
+    border-width: 0.5px;
+    box-shadow: black;
 }
 a:link {
     text-decoration: none;
