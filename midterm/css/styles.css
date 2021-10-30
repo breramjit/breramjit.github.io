@@ -20,6 +20,9 @@ form {
     margin: 8px 0;
     width: 96%;
 }
+.label {
+    font-size: 14px;
+}
 .message-input-box {
     margin: 8px 0;
     width: 96%;
