@@ -81,3 +81,10 @@ a:link {
     border-bottom: none;
     border-top: none;
 }
+footer {
+    float:inline-start;
+    float:inline-end;
+    padding: 20px;
+    width: 98%;
+    text-align: right;
+}
