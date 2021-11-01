@@ -5,6 +5,7 @@ body {
     max-width: 1024px;
     margin: 0 auto;
 }
+/*body contains max width to ensure contained elements remain the same on different sized display screens*/
 h1 {
     font-size: 30px;
     font-weight: lighter;
