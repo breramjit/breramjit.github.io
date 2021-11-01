@@ -2,10 +2,11 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 12px;
     background-color: #aad5d0;
+}
+.container {
     max-width: 1024px;
     margin: 0 auto;
 }
-/*body contains max width to ensure contained elements remain the same on different sized display screens*/
 h1 {
     font-size: 30px;
     font-weight: lighter;
@@ -53,8 +54,8 @@ form {
 .site-title {
     color: white;
     font-weight: normal;
-    position: absolute;
-    top: 23%;
+    position:absolute;
+    top: 24%;
     left: 50%;
     max-width: 1024px;
     margin: 0 auto;
@@ -64,8 +65,8 @@ form {
 /*positions the wide starfish image to the top and center of the page*/
 #wide-starfish-image {
     display:block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
     width: 100%;
 }
 /*wraps paragraph text around lone starfish image using float and padding*/
@@ -78,7 +79,6 @@ form {
 #form {
     border-style: solid;
     border-width: 0.5px;
-    box-shadow: black;
 }
 a:link {
     text-decoration: none;
