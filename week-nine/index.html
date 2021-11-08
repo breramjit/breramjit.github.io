@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS responsive demo</title>
+
+    <style>
+        /*default and mobile-first styles*/
+        body {
+            background: lightblue;
+        }
+        header, main, footer {
+            width: 100%;
+            margin: 0 auto;
+            background: white;
+        }
+        header {
+            background: lightpink;
+        }
+        h1,h2,h3,h4,h5,h6,p {
+            margin: 0;
+        }
+        .container {
+            width: auto;
+            padding: 40px;
+        }
+
+        /*tablet width: approx 600-1000px*/
+
+        @media screen and (min-width: 600px) and (max-width: 999px) {
+            
+            body {
+                font-size: 2.5rem;
+            }
+            header {
+                background: lightgreen;
+            }
+            .container {
+                width: 500px;
+            }
+        }
+        @media screen and (min-width: 1000px) {
+            body {
+                    font-size: 3.5rem;
+                }
+                header {
+                    background: plum;
+                }
+                .container {
+                    width: 900px;
+                }
+        }        
+    </style>
+</head>
+<body>
+        <header>
+            <div class="container">
+            <h1>header</h1>
+            </div>
+        </header>
+            <main>
+                <div class="container">
+                <p>anything</p>
+                </div>
+            </main>
+            <footer>
+                &copy; algonquin college
+            </footer>
+    </div>
+    <!--for the ul, style the li with a border-->
+    <!--dont use more than one h1 per webpage-->
+</body>
+</html>
