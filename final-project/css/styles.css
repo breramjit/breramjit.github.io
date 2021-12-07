@@ -1,0 +1,47 @@
+body {
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    background: #222222;
+    color: #c58b22;
+    padding: 14px;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color:#c58b22;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    background: #c58b22;
+    width: auto;
+    padding: 18px;
+}
+.current a {
+    color:#222222;
+    background: #c58b22;
+}
+
+/* this just sets the width for accuracy to the mock up */
+/* do not put anything else in this media query! */
+
+@media screen and (min-width: 760px){
+    .container {
+        width: 706px;
+    }
+}
+
+/* ==== DESKTOP STYLES ==== */
+
+@media screen and (min-width: 1200px){
+    .container {
+        width: 1200px;
+    }
+}
