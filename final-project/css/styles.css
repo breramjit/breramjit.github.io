@@ -1,10 +1,10 @@
-body {
-    background: white;
-    font-family: 'Open Sans', sans-serif;
-}
 .container {
     width: 100%;
     margin: 0 auto;
+}
+body {
+    background: white;
+    font-family: 'Open Sans', sans-serif;
 }
 header {
     background: #222222;
@@ -19,23 +19,43 @@ nav ul li a {
     padding: 20px;
     text-align: center;
 }
+h1 {
+    font-size: 71px;
+    line-height: 98px;
+}
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
 .logo {
     background: #c58b22;
     width: auto;
     padding: 18px;
 }
-
 .current a {
     color:#222222;
     background: #c58b22;
 }
+
+/*===== ABOUT SECTION =====*/
+
 .section-about {
     background-color: #ffe6ac;
     padding: 12px;
     line-height: 21px;
 }
+.about-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.about-text {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
 
-/*-----SERVICES SECTION-----*/
+/*===== SERVICES SECTION =====*/
 
 .section-services {
     padding: 50px;
@@ -43,9 +63,25 @@ nav ul li a {
 .service-img {
     width: 100%;
 }
+.buffer {
+    background-color: white;
+    padding: 10px;
+}
 .heading-text {
     font-size: 48px;
     font-weight: bold;
+}
+.service-text {
+    padding: 15px;
+}
+.service-button button {
+    background-color: #222222;
+    border: none;
+    color: white;
+    padding: 35px 32px;
+    font-size: 21px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 h3 {
     font-size: 30px;
@@ -56,11 +92,26 @@ h3 {
     background-color: #ffe6ac;
     line-height: 21px;
 }
+.marketing {
+    background-color: #ffe6ac;
+    line-height: 21px;
+}
+.video-production {
+    background-color: #ffe6ac;
+    line-height: 21px;
+}
+.web-development {
+    background-color: #ffe6ac;
+    line-height: 21px;  
+}
+.print {
+    background-color: #ffe6ac;
+    line-height: 21px;
+}
 
 
-
-/* this just sets the width for accuracy to the mock up */
-/* do not put anything else in this media query! */
+/*this just sets the width for accuracy to the mock up*/
+/*do not put anything else in this media query!*/
 
 @media screen and (min-width: 760px){
     .container {
@@ -68,7 +119,7 @@ h3 {
     }
 }
 
-/* ==== DESKTOP STYLES ==== */
+/*====== DESKTOP STYLES ======*/
 
 @media screen and (min-width: 1200px){
     .container {
