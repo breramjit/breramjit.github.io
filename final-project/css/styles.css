@@ -24,10 +24,40 @@ nav ul li a {
     width: auto;
     padding: 18px;
 }
+
 .current a {
     color:#222222;
     background: #c58b22;
 }
+.section-about {
+    background-color: #ffe6ac;
+    padding: 12px;
+    line-height: 21px;
+}
+
+/*-----SERVICES SECTION-----*/
+
+.section-services {
+    padding: 50px;
+}
+.service-img {
+    width: 100%;
+}
+.heading-text {
+    font-size: 48px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 14px;
+}
+.digital-transformation {
+    background-color: #ffe6ac;
+    line-height: 21px;
+}
+
+
 
 /* this just sets the width for accuracy to the mock up */
 /* do not put anything else in this media query! */
