@@ -136,6 +136,13 @@ h4 {
     padding-left: 15px;
     font-weight: bold;
 }
+hr {
+    border: none;
+    height: 2.5px;
+    background: #c58b22;
+    margin: 15px;
+}
+
 /*this just sets the width for accuracy to the mock up*/
 /*do not put anything else in this media query!*/
 
