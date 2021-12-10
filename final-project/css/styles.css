@@ -22,6 +22,7 @@ nav ul li a {
 h1 {
     font-size: 71px;
     line-height: 98px;
+    font-weight: bold;
 }
 h2 {
     font-size: 48px;
@@ -36,6 +37,9 @@ h2 {
     color:#222222;
     background: #c58b22;
 }
+/*===== WELCOME SECTION=====*/
+
+
 
 /*===== ABOUT SECTION =====*/
 
@@ -109,7 +113,29 @@ h3 {
     line-height: 21px;
 }
 
+/*====== OUR TEAM SECTION =====*/
 
+.section-team {
+    padding: 50px;
+}
+.team-img {
+    width: 100%;
+}
+.team-john {
+    background-color: #ffe6ac;
+    line-height: 21px;
+}
+.team-bob {
+    background-color: #ffe6ac;
+    line-height: 21px;
+}
+.team-text {
+    padding: 15px;
+}
+h4 {
+    padding-left: 15px;
+    font-weight: bold;
+}
 /*this just sets the width for accuracy to the mock up*/
 /*do not put anything else in this media query!*/
 
