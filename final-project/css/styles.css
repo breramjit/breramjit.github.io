@@ -2,6 +2,9 @@
     width: 100%;
     margin: 0 auto;
 }
+html {
+    margin: auto;
+}
 body {
     background: white;
     font-family: 'Open Sans', sans-serif;
@@ -38,7 +41,6 @@ h2 {
     background: #c58b22;
 }
 /*===== WELCOME SECTION=====*/
-
 
 
 /*===== ABOUT SECTION =====*/
@@ -171,6 +173,9 @@ hr {
     font-size: 21px;
     padding: 5px;
     margin-top: 15px;
+}
+.section-contact {
+    margin: 0 auto;
 }
 
 /*===== FOOTER SECTION =====*/
