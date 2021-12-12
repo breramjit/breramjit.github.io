@@ -40,6 +40,17 @@ h2 {
     color:#222222;
     background: #c58b22;
 }
+.search-bar {
+    position: relative;
+    display: flex;
+}
+.search {
+    border: none;
+    height: 25px;
+    width: 100%;
+    padding: 2px 140px;
+}
+
 /*===== WELCOME SECTION=====*/
 
 
@@ -118,6 +129,21 @@ h3 {
     line-height: 21px;
 }
 
+/*===== OUR VISION SECTION=====*/
+
+.section-vision {
+    background-image: url(../images/vision.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.vision-button button {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-color: #c58b22;
+    padding: 35px 50px;
+    font-size: 21px;
+}
+
 /*====== OUR TEAM SECTION =====*/
 
 .section-team {
@@ -176,6 +202,17 @@ hr {
 }
 .section-contact {
     margin: 0 auto;
+}
+.hours {
+    border: 1px solid black;
+    padding: 15px;
+}
+table {
+    width: 100%;
+}
+.table-top {
+    background-color: #ffe6ac;
+    text-align: center;
 }
 
 /*===== FOOTER SECTION =====*/
