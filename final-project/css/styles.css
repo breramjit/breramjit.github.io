@@ -26,6 +26,7 @@ h1 {
     font-size: 71px;
     line-height: 98px;
     font-weight: bold;
+    color: white;
 }
 h2 {
     font-size: 48px;
@@ -53,6 +54,18 @@ h2 {
 
 /*===== WELCOME SECTION=====*/
 
+.connect-button button {
+    background-color: #c58b22;
+    color: black;
+    border: none;
+    padding: 35px 32px;
+    font-size: 21px;
+}
+.welcome-text {
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+}
 
 /*===== ABOUT SECTION =====*/
 
