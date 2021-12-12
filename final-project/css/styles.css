@@ -41,25 +41,45 @@ h2 {
     color:#222222;
     background: #c58b22;
 }
-.search-bar {
-    position: relative;
+.search-flex {
     display: flex;
 }
-.search {
-    border: none;
-    height: 25px;
+.search-bar {
     width: 100%;
-    padding: 2px 140px;
+}
+.search {
+    width: 98%;
+    padding: 5px;
+}
+::placeholder {
+    font-size: 18px;
+}
+.search-icon button {
+    background-color: #222222;
+    border: #c78c06;
+    border-style: solid;
+    border-width: 2px;
 }
 
 /*===== WELCOME SECTION=====*/
 
+.section-welcome {
+    background-image: url(../images/main-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome-info {
+    background-color: rgba(0, 0, 0, 0.6);
+}
 .connect-button button {
     background-color: #c78c06;
     color: black;
     border: none;
-    padding: 35px 32px;
+    padding: 25px 20px;
     font-size: 21px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
 .welcome-text {
     color: white;
@@ -147,15 +167,22 @@ h3 {
 .section-vision {
     background-image: url(../images/vision.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .vision-button button {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     border-color: #c58b22;
-    padding: 35px 50px;
+    padding: 25px 25px;
     font-size: 21px;
     background-size: auto 100%;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.vision-text {
+    color: white;
+    padding-left: 15px;
 }
 
 /*====== OUR TEAM SECTION =====*/
