@@ -147,22 +147,28 @@ h3 {
 .digital-transformation {
     background-color: #ffe6ac;
     line-height: 21px;
+    grid-area: one;
 }
 .marketing {
     background-color: #ffe6ac;
     line-height: 21px;
+    grid-area: two;
 }
 .video-production {
     background-color: #ffe6ac;
     line-height: 21px;
+    grid-area: three;
+
 }
 .web-development {
     background-color: #ffe6ac;
     line-height: 21px;  
+    grid-area: four;
 }
 .print {
     background-color: #ffe6ac;
     line-height: 21px;
+    grid-area: five;
 }
 
 /*===== OUR VISION SECTION =====*/
@@ -199,10 +205,12 @@ h3 {
 .team-john {
     background-color: #ffe6ac;
     line-height: 21px;
+    grid-area: a;
 }
 .team-bob {
     background-color: #ffe6ac;
     line-height: 21px;
+    grid-area: b;
 }
 .team-text {
     padding: 15px;
@@ -340,6 +348,20 @@ a {
     h3 {
         font-size: 36px;
     }
+    .service-grid-one {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas: "one two";
+        grid-gap: 10px;
+    }
+    .service-grid-two {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas: "three four five";
+        grid-gap: 10px;
+    }
 
     /*===== OUR VISION SECTION =====*/
     .section-vision {
@@ -348,8 +370,32 @@ a {
 
     /*====== OUR TEAM SECTION =====*/
 
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas: "a b";
+    }
+
     /*===== CONTACT SECTION =====*/
     .send-button button {
         font-size: 24px;
+    }
+    .message-grid {
+        grid-area: contact;
+    }
+    .location-grid {
+        grid-area: location;
+    }
+    .hours-grid {
+        grid-area: hours;
+    }
+    .contact-grid {
+        display: grid;
+        grid-gap: 25px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "contact location"
+                               "hours hours";
     }
 }
