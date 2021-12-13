@@ -67,6 +67,8 @@ h2 {
     background-image: url(../images/main-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .welcome-info {
     background-color: rgba(0, 0, 0, 0.6);
