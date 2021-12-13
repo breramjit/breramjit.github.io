@@ -69,6 +69,7 @@ h2 {
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 10px;
 }
 .welcome-info {
     background-color: rgba(0, 0, 0, 0.6);
@@ -164,7 +165,7 @@ h3 {
     line-height: 21px;
 }
 
-/*===== OUR VISION SECTION=====*/
+/*===== OUR VISION SECTION =====*/
 
 .section-vision {
     background-image: url(../images/vision.jpg);
@@ -293,5 +294,56 @@ a {
 @media screen and (min-width: 1200px){
     .container {
         width: 1200px;
+    }
+    .nav-links {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .logo {
+        background-color: #222222;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    ::placeholder {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 54px;
+    }
+    h1 {
+        font-size: 81px;
+        line-height: 112px;
+    }
+    /*===== WELCOME SECTION =====*/
+
+    .section-welcome {
+        padding-left: 90px;
+        padding-right: 90px;
+        background-position: center;
+    }
+
+    /*===== ABOUT SECTION =====*/
+
+    .about-img {
+        max-width: 30%;
+        float: left;
+    }
+
+    /*===== SERVICES SECTION =====*/
+    h3 {
+        font-size: 36px;
+    }
+
+    /*===== OUR VISION SECTION =====*/
+    .section-vision {
+        background-position: center;
+    }
+
+    /*====== OUR TEAM SECTION =====*/
+
+    /*===== CONTACT SECTION =====*/
+    .send-button button {
+        font-size: 24px;
     }
 }
