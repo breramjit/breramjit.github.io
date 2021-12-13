@@ -329,6 +329,12 @@ a {
         max-width: 30%;
         float: left;
     }
+    .about-p {
+        padding-left: 390px;
+    }
+    .about-heading {
+        padding-left: 390px;
+    }
 
     /*===== SERVICES SECTION =====*/
     h3 {
