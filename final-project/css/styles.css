@@ -362,6 +362,9 @@ a {
         grid-template-areas: "three four five";
         grid-gap: 10px;
     }
+    .service-button button {
+        font-size: 24pt;
+    }
 
     /*===== OUR VISION SECTION =====*/
     .section-vision {
